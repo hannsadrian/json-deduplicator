@@ -1,8 +1,9 @@
 {
   "name": "json-deduplicator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "takes in any json data and replaces recurring objects by an id",
   "main": "index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "test": "node test/test.js &> test/data.out.json"
   },
