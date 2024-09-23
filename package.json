@@ -1,15 +1,15 @@
 {
   "name": "json-deduplicator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "takes in any json data and replaces recurring objects by an id",
   "main": "index.js",
   "types": "types/index.d.ts",
   "scripts": {
     "test": "node test/test.js &> test/data.out.json"
   },
-  "dependencies": {
-    "uuid": "^8.3.2"
-  },
   "author": "hannsadrian",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react-native-uuid": "^2.0.2"
+  }
 }
