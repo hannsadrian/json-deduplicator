@@ -1,6 +1,6 @@
 {
   "name": "json-deduplicator",
-  "version": "1.0.4",
+  "version": "1.1.1",
   "description": "takes in any json data and replaces recurring objects by an id",
   "main": "index.js",
   "types": "types/index.d.ts",
